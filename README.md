@@ -1,16 +1,19 @@
 # JCasC-jenkins
 auto run jenkins instance as code
 
+Feature for this:
+- with Jcasc
+- installed jenkins plugin(git,job-dsl,build-monitor,etc)
+- no admin and password
+- Jenkins ver. 2.176.3
 
->with Jcasc, installed jenkins plugin(git,job-dsl,build-monitor,etc),no admin and password, Jenkins ver. 2.176.3
 
-
-build new image:
+### 1.build new image:
 `docker build -t cicddraft/jenkins:<TAG> .`
 
 >`docker push cicddraft/jenkins:v0.1`
 
-run:
+### 2.run:
 `docker run --name jcasc-demo -d -p 8081:8080 cicddraft/jenkins:<TAG>`
 
 ref:

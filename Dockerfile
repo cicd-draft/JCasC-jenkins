@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:2.176.3
 LABEL maintainer="qinrui_cn@qq.com"
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 COPY jenkins.yaml /usr/share/jenkins/ref/jenkins.yaml

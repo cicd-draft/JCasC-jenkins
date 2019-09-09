@@ -1,0 +1,11 @@
+jenkins:
+  systemMessage: "AutomatingGuy demo: configured automatically with JCasC plugin\n\n"
+
+  numExecutors: 1
+  mode: NORMAL
+
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"

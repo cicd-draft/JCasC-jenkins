@@ -1,0 +1,7 @@
+workflow-aggregator:latest
+job-dsl:latest
+credentials:latest
+git:latest
+timestamper:latest
+configuration-as-code:1.27
+build-monitor:latest
